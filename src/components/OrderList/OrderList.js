@@ -1,6 +1,7 @@
 import React from 'react';
 
 const OrderList = (props) => {
+    // console.log(props);
     const { orders } = props;
 
     

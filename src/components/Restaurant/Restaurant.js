@@ -29,7 +29,10 @@ const Restaurant = () => {
     */
     
     const handleAddToCart = meal => {
-        console.log(meal);
+        // console.log(meal);
+        const newOrder = [...orders, meal];
+        setOrders(newOrder);
+
         addToDb(meal.idMeal);
     }
 
